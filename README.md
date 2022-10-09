@@ -1,1 +1,83 @@
-# mineralogical_collection
+# ENTIDADES
+
+# User
+- provider => :string,
+- uid => :string,
+- first_name => :string,
+- last_name => :string,
+- social_name => :string,
+- username => :string,
+- profile_picture_url => :string,
+- email => :string,
+- phone => :string,
+- kind => :integer,
+- manager => :boolean,
+- status => :integer
+- terms_of_use_accepted => :boolean,
+- privacy_policy_accepted => :boolean,
+- encrypted_password => :string,
+- reset_password_token => :string,
+- reset_password_sent_at => :datetime,
+- allow_password_change => :boolean,
+- forgot_username_sent_at => :datetime,
+- remember_created_at => :datetime,
+- sign_in_count => :integer,
+- current_sign_in_at => :datetime,
+- last_sign_in_at => :datetime,
+- current_sign_in_ip => :inet,
+- last_sign_in_ip => :inet,
+- confirmation_token => :string,
+- confirmed_at => :datetime,
+- confirmation_sent_at => :datetime,
+- unconfirmed_email => :string,
+- email_confirmed_at => :datetime,
+- tokens => :json,
+- created_at => :datetime,
+- updated_at => :datetime,
+
+# Minerals
+- Category (Minerais/rochas)
+- description
+- classification
+- group
+- subgroup
+- chemical_formula
+- toughness
+- shine
+- color
+- composition
+- crystallography
+- class
+- habit
+- cleavage
+- fracture
+- relative
+- optical_properties
+- diagnostic_properties
+- association
+- occurrence
+- uses
+- feature
+- tenacity
+- density
+- genesis
+- diaphaneity
+- solubility
+
+# Rocks
+- Category (Minerais/rochas)
+- description
+- classification
+- group
+- subgroup
+- origin
+- family
+- color
+- essential_mineralogy
+- accessory_minerals
+- Textures_and_microstructures
+- genesis
+- occurrence
+- toughness
+- uses
+- density
