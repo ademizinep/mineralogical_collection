@@ -67,3 +67,5 @@ yarn-debug.log*
 !/storage/.keep
 
 rails_best_practices_output.html
+
+.reset_databse
