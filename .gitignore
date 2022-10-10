@@ -65,3 +65,5 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
+rails_best_practices_output.html
